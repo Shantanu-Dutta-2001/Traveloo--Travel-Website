@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVELOO</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>raveloo</a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="./booknow.html">book</a>
+        
+        <a href="./service.html">services</a>
+        
+        <a href="./contactus.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+
+</header>
+
+<!-- header section ends -->
+
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+       
+    </div>
+
+
+    <div class="video-container">
+        <video src="images/vid-2.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <button type=" button" class="btn" value="SUBMIT"
+            onclick="deleteSomething()">SUBMIT</button>
+            <script>
+               function deleteSomething(secondValue) {
+                  alert("We will soon contact you...");
+                  document.getElementById("txtName").value = "";
+               }
+            </script>
+        </form>
+
+    </div>
+    
+</section>
+
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Travel is Tours & Travel agency have amazing tourist destination pacakage in affordable price.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    
+
+</section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    function my_button_click_handler()
+    {
+    alert('We will reach you soon');
+    }
+    </script>
+</body>
+</html>
